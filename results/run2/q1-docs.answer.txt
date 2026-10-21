@@ -1,0 +1,1 @@
+DOC README.md:9 | CODE src/gates/mod.rs:22 | README says "68 gates: 39 are on by default", but the code lists 90 gates in the registry and the default set is defined differently, so the counts in the README and changelog are inconsistent with the actual registry.

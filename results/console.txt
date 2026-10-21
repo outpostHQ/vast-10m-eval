@@ -1,0 +1,18 @@
+Console lines that no other file in this repository records, copied from our session log.
+Times are UTC, 2026-10-21.
+
+Run 1, exploratory/ask_chat_1.py (then the same code, which read the key from a local file).
+Its last argument is max_tokens.
+  15:21  exploratory/ping.txt                                 chars 5 in 0 s; usage None
+  15:22  exploratory/run1-bloat.prompt.txt.gz, 32768          chars 24700 in 132 s; usage None
+  15:26  exploratory/run1-probe.prompt.txt.gz, 16384          chars 53214 in 454 s; usage None
+The prompts were sent unzipped.
+
+Run 3, first try of q4 (ask.py). It started when q5 ended, at 16:23:46, and the error was in our
+log by 16:27:31, while q1 of sequence A ran (16:20:59 to 16:30:19).
+  urllib.error.HTTPError: HTTP Error 408: Request Timeout
+
+Docs pages, HTTP status from curl, with the demo key and without it.
+  https://demo.voltropy.com/docs           401  401
+  https://demo.voltropy.com/openapi.json   401  401
+  https://demo.voltropy.com/llms.txt       401  401

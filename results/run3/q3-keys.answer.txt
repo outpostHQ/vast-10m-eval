@@ -1,0 +1,1 @@
+I cannot answer reliably: `src/project/config.rs` (and `schema/config-v1.json`) are not included in the provided repository text, so I cannot give the exact line numbers or confirm the schema fields.

@@ -1,0 +1,1 @@
+We need to respond with the single word OK. The user said "A repository with no files." and then "THE QUESTION" and "Reply with the single word OK." So we just output OK.

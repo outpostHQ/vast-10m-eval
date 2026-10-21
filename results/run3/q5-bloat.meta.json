@@ -1,0 +1,36 @@
+{
+ "seconds": 419,
+ "first_token_s": 258,
+ "status": "completed",
+ "incomplete": null,
+ "error": null,
+ "usage": {
+  "input_tokens": 1532593,
+  "input_tokens_details": {
+   "cached_tokens": 1532032
+  },
+  "output_tokens": 12714,
+  "output_tokens_details": {
+   "reasoning_tokens": 12496
+  },
+  "total_tokens": 1545307
+ },
+ "answer_chars": 716,
+ "reasoning_chars": 47915,
+ "events": {
+  "response.created": 1,
+  "response.in_progress": 1,
+  "response.output_item.added": 2,
+  "response.reasoning_summary_part.added": 1,
+  "response.reasoning_summary_text.delta": 12495,
+  "response.content_part.added": 1,
+  "response.output_text.delta": 216,
+  "response.reasoning_summary_text.done": 1,
+  "response.reasoning_summary_part.done": 1,
+  "response.output_item.done": 2,
+  "response.output_text.done": 1,
+  "response.content_part.done": 1,
+  "response.completed": 1
+ },
+ "prompt_chars": 4876173
+}

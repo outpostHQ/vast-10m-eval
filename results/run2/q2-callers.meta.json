@@ -1,0 +1,20 @@
+{
+ "seconds": 850,
+ "first_token_s": 4,
+ "finish": "length",
+ "usage": {
+  "prompt_tokens": 1532604,
+  "total_tokens": 1598140,
+  "completion_tokens": 65536,
+  "prompt_tokens_details": {
+   "cached_tokens": 1531904
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "answer_chars": 170284,
+ "reasoning_chars": 0,
+ "other_delta_keys": [],
+ "prompt_chars": 4876063
+}

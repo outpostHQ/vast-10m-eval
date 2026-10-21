@@ -1,0 +1,3 @@
+doc	code	verdict	evidence
+docs/guide.md:303	src/cli/args.rs:104	wrong	docs/guide.md:302 documents `chock run --skip GATE`. src/cli.rs:64 passes the arguments through `args::joined`, which joins `--skip miri` into `--skip=miri`; the test at src/cli/args.rs:582 checks this. Both forms work.
+README.md:9	src/gates/mod.rs:22	wrong	README.md:9 says 68 gates. REGISTRY, which starts at src/gates/mod.rs:22, has 68 entries, not 90.
